@@ -17,4 +17,13 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped></style>
+<style scoped>
+ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+</style>

@@ -40,3 +40,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+</style>

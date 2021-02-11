@@ -15,4 +15,17 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped></style>
+<style scoped>
+div {
+  width: 50%;
+}
+input {
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+
+  box-shadow: rgb(189, 188, 188) 5px 5px 10px;
+}
+</style>
