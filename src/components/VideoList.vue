@@ -21,7 +21,6 @@ export default {
 ul {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -18,6 +18,9 @@ export default {
 <style scoped>
 div {
   width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
 }
 input {
   width: 50%;

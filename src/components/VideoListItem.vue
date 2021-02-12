@@ -1,6 +1,6 @@
 <template>
-  <li>
-    <img :src="thumbnailUrl" alt="" />
+  <li @click="onVideoSelect">
+    <img :src="thumbnailUrl" alt="a " />
     {{ video.snippet.title }}
   </li>
 </template>
@@ -14,6 +14,11 @@ export default {
   computed: {
     thumbnailUrl() {
       return this.video.snippet.thumbnails.default.url;
+    },
+  },
+  methods: {
+    onVideoSelect() {
+      console.log("Coucou petite perruche");
     },
   },
 };

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <SearchBar @termChange="onTermChange" />
     <VideoList :videos="videos" />
   </div>
@@ -42,9 +42,12 @@ export default {
 </script>
 
 <style scoped>
-div {
+.app {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100vw;
+  justify-content: start;
+  height: 100vh;
 }
 </style>
