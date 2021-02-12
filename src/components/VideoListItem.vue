@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     onVideoSelect() {
-      console.log("Coucou petite perruche");
+      this.$emit("videoSelect", this.video);
     },
   },
 };
